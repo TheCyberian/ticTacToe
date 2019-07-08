@@ -130,10 +130,9 @@ for(int[] winningPosition : winningPositions) {
 Now, our application is in a position to see if someone has won and make a toast for it. But we still lack a few more things.
 
 ### Step 8: 
-In this step, we'll add a reset button and a text view displaying the winner of the game. And in the step afterwards, we'll add the functionality to the reset button.\n
-We'll need to add a button to the layout for this and change the visibility of the button to Invisibile. Same process to be repeated for the Textview which is to be added. We'll be changing the visibility of these elements in the program. So, we need them to be invisible by default.\n
+In this step, we'll add a reset button and a text view displaying the winner of the game. And in the step afterwards, we'll add the functionality to the reset button.
+We'll need to add a button to the layout for this and change the visibility of the button to Invisibile. Same process to be repeated for the Textview which is to be added. We'll be changing the visibility of these elements in the program. So, we need them to be invisible by default.
 If you're using Android Studio, you can change the values directly from the Preview. Otherwise, we can go to activity_main.xml and add the following:
-
 
 ```
  <TextView
@@ -172,12 +171,11 @@ If you're using Android Studio, you can change the values directly from the Prev
         app:layout_constraintTop_toBottomOf="@+id/gridLayout" />
 ```
 
-And the for loop in the previous step, now changes to be like below, changing the visibility of the elements after a winner is decided. Also, we have introduced a boolean value `gameActive` to let system know when the game's to be stopped:
+And the for loop in the previous step, now changes to be like below, changing the visibility of the elements after a winner is decided. Also, we have introduced a boolean value `gameActive` at class level, to let system know when the game's to be stopped:
 
 ```
             for(int[] winningPosition : winningPositions) {
                 if (gameState[winningPosition[0]] == gameState[winningPosition[1]] && gameState[winningPosition[1]] == gameState[winningPosition[2]] && gameState[winningPosition[0]] != 2) {
-                    //                someone has won
                     gameActive = false;
                     String winner = "";
                     if (activePlayer == 0) {
