@@ -239,7 +239,8 @@ public void resetGame(View view){
 ```
 
 We are now good to go for packaging the program into an **".apk"** file.
-Keep coding! Have fun.
+
+*Keep coding! Have fun.*
 
 The full code of the application is available at GitHub:
 [Github/The-Cyberian](https://github.com/TheCyberian)
