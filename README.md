@@ -2,6 +2,8 @@
 
 Creating a simple Tic Tac Toe android game application using Java
 
+In the following blog, we'll be working to create a basic TicTacToe game for android platform. We'll be coding the game in Java, using Android Studio IDE. The tutorial has been divided into 9 steps. 
+
 ![TicTacToe](http://i.imgur.com/n88Kibx.jpg)
 
 
@@ -13,7 +15,9 @@ After creating the necessary images, I launched the Android Studio and opened a 
 
 ### Step 3:
 By the beginning of step3, your application would be looking something like this.
-<Image tag goes here>
+
+![Layout](https://github.com/TheCyberian/ticTacToe/tree/master/app/src/main/res/drawable/board.png)
+
 Now for each of the cell, to contain the image or X or 0, we need to add 9 ImageViews. One for each cell of the grid. So, go ahead and start placing ImageViews for each of the cells. You can place any of the image (either X or 0) for now, as we'll be removing them after the view is created and be placing them back in place programmatically. 
 
 ### Step 4:
@@ -133,9 +137,9 @@ for(int[] winningPosition : winningPositions) {
 Now, our application is in a position to see if someone has won and make a toast for it. But we still lack a few more things.
 
 ### Step 8: 
-In this step, we'll add a reset button and a text view displaying the winner of the game. And in the step afterwards, we'll add the functionality to the reset button.
-We'll need to add a button to the layout for this and change the visibility of the button to Invisibile. Same process to be repeated for the Textview which is to be added. We'll be changing the visibility of these elements in the program. So, we need them to be invisible by default.
-If you're using Android Studio, you can change the values directly from the Preview. Otherwise, we can go to activity_main.xml and add the following:
+In this step, we'll add a reset button and a text view displaying the winner of the game. And in the step afterwards, we'll add the functionality to the reset button.<br>
+We'll need to add a button to the layout for this and change the visibility of the button to Invisibile. Same process to be repeated for the Textview which is to be added. We'll be changing the visibility of these elements in the program. So, we need them to be invisible by default.<br>
+If you're using Android Studio, you can change the values directly from the Preview. Otherwise, we can go to activity_main.xml and add the following:<br>
 
 ```
  <TextView
