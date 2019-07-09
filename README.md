@@ -1,11 +1,13 @@
 # ticTacToe
 
-Creating a simple Tic Tac Toe android game application using Java
+## Creating a simple Tic Tac Toe android game application using Java
 
-In the following blog, we'll be working to create a basic TicTacToe game for android platform. We'll be coding the game in Java, using Android Studio IDE. The tutorial has been divided into 9 steps. 
+In the following blog, we'll be working to create a basic TicTacToe game for android platform. We'll be coding the game in Java, using Android Studio IDE. The tutorial has been divided into 9 steps, each step moving progressively on top of last one. <br>
+
+#### Note :-<br> This tutorial assumes, you have a basic working knowledge of android studio and the framework in place.
+<br>
 
 ![TicTacToe](http://i.imgur.com/n88Kibx.jpg)
-
 
 ### Step 1:
 First, I have created images to be used for the application using GNU Image Manipulation Program, popularly known as GIMP. The game board, X's and 0's were created as part of these images. If you're doing the same, make sure the images are created as '.png' or '.jpg' format only. Otherwise, you may download copyright free images from the internet, which ever way works for you.
@@ -15,9 +17,9 @@ After creating the necessary images, I launched the Android Studio and opened a 
 
 ### Step 3:
 By the beginning of step3, your application would be looking something like this.
-
+<br>
 ![Layout](https://github.com/TheCyberian/ticTacToe/tree/master/app/src/main/res/drawable/board.png)
-
+<br>
 Now for each of the cell, to contain the image or X or 0, we need to add 9 ImageViews. One for each cell of the grid. So, go ahead and start placing ImageViews for each of the cells. You can place any of the image (either X or 0) for now, as we'll be removing them after the view is created and be placing them back in place programmatically. 
 
 ### Step 4:
@@ -239,4 +241,5 @@ public void resetGame(View view){
 We are now good to go for packaging the program into an **".apk"** file.
 Keep coding! Have fun.
 
-
+The full code of the application is available at GitHub:
+[Github/The-Cyberian](https://github.com/TheCyberian)
