@@ -2,7 +2,7 @@
 
 Creating a simple Tic Tac Toe android game application using Java
 
-![tic tac toe](https://imgur.com/a/91eVH7H)
+![tic tac toe](https://i.imgur.com/a/91eVH7H.png)
 
 ### Step 1:
 First, I have created images to be used for the application using GNU Image Manipulation Program, popularly known as GIMP. The game board, X's and 0's were created as part of these images. If you're doing the same, make sure the images are created as '.png' or '.jpg' format only. Otherwise, you may download copyright free images from the internet, which ever way works for you.
